@@ -3,7 +3,7 @@ var color = require('onecolor');
 var ledbar = require('./ledbar.js');
 var ledspot = require('./ledspot.js');
 
-var express = require('express');f
+var express = require('express');
 var app = express();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
